@@ -1,5 +1,5 @@
 import Person from './person';
-export { greet, GreetInXhosa, GreetInEnglish, GreetInShona, greetedCounter }
+export { greet, GreetInXhosa, GreetInEnglish, GreetInAfrikaans, greetedCounter }
 
 
 
@@ -24,9 +24,9 @@ class GreetInEnglish implements GreetIn {
 }
 
 
-class GreetInShona implements GreetIn {
+class GreetInAfrikaans implements GreetIn {
   greet(name: string) {
-    return "Moro, " + name;
+    return "Hallo, " + name;
   }
 }
 
